@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Javascript Guessing Game58</title>
+    <script>
+        var colors = ["blue", "cyan", "gold", "gray", "green", "magenta",
+            "orange", "red", "white", "yellow"];
+        /* Array is already alphabetically sorted but this is the method to sort
+           var sorted = colors.sort();
+        */
+        var guesses = 0;
+        var finished = false;
+        var target;
+        var guess_input;
+        var guess_input_text;
+
+        function do_game() {
+            var random_number = Math.floor(Math.random() * (colors.length - 1));
+            target = colors[random_number];
+            /* right-click -> inspect (element) -> console tab
+               to debug the target value
+             */
+            console.log(target);
+
+            while (!(guess_input == target)) {
+                guess_input_text = prompt("I am thinking of one of these colors: \n \n" +
+                    colors.join(", ") +
+                    "\n\n What color am I thinking of?");
+                guess_input = (guess_input_text).toLowerCase();
+                guesses += 1;
+            }
+        }
+    </script>
+</head>
+<body onload="do_game()">
+</body>
+</html>
