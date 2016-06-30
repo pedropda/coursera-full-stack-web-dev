@@ -31,6 +31,9 @@
     "jit-grunt": "^0.9.1",
     "jshint": "file:node_modules/jshint",
     "jshint-stylish": "^2.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
     "time-grunt": "^1.2.2"
   },
   "engines": {
