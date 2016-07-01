@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('confusionApp.services', ['ngResource'])
+angular.module('conFusion.services',['ngResource'])
         .constant("baseURL","http://localhost:3000/")
         .service('menuFactory', ['$resource', 'baseURL', function($resource,baseURL) {
 
@@ -13,6 +13,7 @@ angular.module('confusionApp.services', ['ngResource'])
                           price:'19.99',
                           description:'Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person ',
                 }
+
             ];
 
                 this.getDishes = function(){
