@@ -1,6 +1,6 @@
 # Coursera Full Stack Web Development
 
-My submitted assignments for the "Full Stack Web Development" specialization on Coursera.
+My exercises and assignments for the "Full Stack Web Development" specialization on Coursera.
 This course is offered by The Hong Kong University of Science and Technology and consists of the following modules:
 - HTML, CSS & Javascript
 - Front-End Web UI Frameworks and Tools
