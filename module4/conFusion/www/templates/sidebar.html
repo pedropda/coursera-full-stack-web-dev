@@ -1,11 +1,9 @@
 <ion-side-menus enable-menu-with-back-views="false">
   <ion-side-menu-content>
     <ion-nav-bar class="bar-royal">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
+      <ion-nav-back-button></ion-nav-back-button>
       <ion-nav-buttons side="left">
-        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
-        </button>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
       </ion-nav-buttons>
     </ion-nav-bar>
     <ion-nav-view name="mainContent"></ion-nav-view>
@@ -30,6 +28,12 @@
         </ion-item>
         <ion-item class="item-divider">
           Services
+        </ion-item>
+        <ion-item menu-close ng-click="reserve()">
+          Reserve Table
+        </ion-item>
+        <ion-item menu-close href="#/app/favorites">
+          My Favorites
         </ion-item>
         <ion-item menu-close ng-click="login()">
           Login
