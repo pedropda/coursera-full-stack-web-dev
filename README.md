@@ -13,7 +13,7 @@ This course is offered by The Hong Kong University of Science and Technology and
 
 ## 1. Matching Game
 
-![](https://doc-04-2k-docs.googleusercontent.com/docs/securesc/9ir9fms0pg6nuidj5k4iqdjvtm3bp9mu/k161gmfpls6b1q6gtfkrpkn0cifi7bll/1473962400000/10394595151104025878/10394595151104025878/0ByNbN1Gtt8A9eE81dUlQWjM5bGs?e=view&nonce=stlc99tflc3se&user=10394595151104025878&hash=p0rf2qq6rbjh3ubb71jqs276k7jh0vle)
+![](https://doc-04-2k-docs.googleusercontent.com/docs/securesc/9ir9fms0pg6nuidj5k4iqdjvtm3bp9mu/k161gmfpls6b1q6gtfkrpkn0cifi7bll/1473962400000/10394595151104025878/10394595151104025878/0ByNbN1Gtt8A9eE81dUlQWjM5bGs?e=view&nonce=stlc99tflc3se&user=10394595151104025878&hash=p0rf2qq6rbjh3ubb71jqs276k7jh0vle.png)
 
 ### Created with
  - HTML
