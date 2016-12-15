@@ -1,5 +1,3 @@
-Info not complete yet...
-
 # Coursera Full Stack Web Development
 
 My exercises and assignments for the "Full Stack Web Development" specialization on Coursera.
